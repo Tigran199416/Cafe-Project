@@ -1,0 +1,120 @@
+.chef_header{
+    display: flex;
+    flex-direction: column;
+    align-items: center
+}
+
+.chef_pic{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 15px;
+
+}
+.cooker{
+    margin-left: 15px;
+    
+}
+.chef_image{
+    width: 377.676px;
+height: 537.652px;
+flex-shrink: 0;
+border-radius: 20px;
+opacity: 1;
+display: block;
+width: 80%;
+height: auto;
+transition: .5s ease;
+backface-visibility: hidden;
+
+
+}
+.middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    /* top: 50%;
+    left: 50%; */
+    margin-top: -8%;
+    margin-left: 10%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+.text_title{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 10px;
+    color: #D88303;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 160%; /* 32px */
+    text-transform: capitalize;
+}
+
+.t_c{
+    width: 88px;
+    height: 2px;
+    flex-shrink: 0;
+    background: #D88303;
+    margin-left: 10px;
+}
+    
+.h1_text{
+    color: #8F6232;
+text-align: center;
+font-family: Inter;
+font-size: 38px;
+font-style: normal;
+font-weight: 600;
+line-height: 128%; /* 48.64px */
+text-transform: capitalize;
+}
+.cooker:hover .chef_image {
+    opacity: 0.2;
+  }
+
+.cooker:hover .middle{
+    opacity: 1;
+  
+}
+
+
+/* .cooker{
+    background-image: url("../images/Background\ 1.png");
+} */
+
+@media(max-width:750px){
+    .middle p{
+        font-size: 20px  !important;
+    }
+    .middle {
+        transition: .5s ease;
+         opacity: 0; 
+        position: absolute;
+        margin-top: -10%;
+        margin-left: 11%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        text-align: center;
+    }
+    .middle svg{
+        font-size: 26px !important;
+    }
+    .h1_text {
+        color: #8F6232;
+        text-align: center;
+        font-family: Inter;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 120%;
+        text-transform: capitalize;
+    }
+
+
+}

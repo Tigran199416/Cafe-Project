@@ -1,0 +1,111 @@
+.menu_header{
+    background-color:rgba(250, 248, 246, 1) ;
+    padding: 70px
+}
+.menu_p_text{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: #D88303;
+    color: #D88303;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 160%; /* 32px */
+    text-transform: capitalize;
+}
+.p_g{
+ width: 88px;
+height: 2px;
+flex-shrink: 0;
+background: #D88303;
+margin-left: 10px;
+}
+.menu_h1_text{
+    color: #8F6232;
+    font-family: Inter;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 160%; /* 60.8px */
+    text-transform: capitalize;
+}
+.menu_slider{
+    width: 100%;
+}
+.slick-next{
+    display: none;
+    position: fixed;
+}
+.contenier{
+    position: relative;
+    width: 50%;
+}
+.image_menu {
+  width: 90%;
+    display: block;
+   height: auto;
+  }
+  .overlay{
+    width: 70%;
+    position: absolute;
+    bottom: 0;
+    left: 5px;
+    right: 50px;
+    overflow: hidden;
+    height: 5%;
+    transition: .5s ease;
+      }
+      .contenier:hover .overlay {
+        height: 70;
+      }
+
+      .title_text{
+        color: #FFF;
+        font-family: Inter;
+        font-size: 25px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 150%; /* 37.5px */
+        text-transform: capitalize;
+      }
+
+      .desc_text{
+        color: #FFF;
+        font-family: Inter;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        /* width: 278px; */
+        height: 50.05px;
+        flex-shrink: 0;
+      }
+  
+
+      @media(max-width:750px){
+        .title_text{
+          color: #FFF;
+          font-family: Inter;
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 500;
+          line-height: 120%; /* 37.5px */
+          text-transform: capitalize;
+        }
+        .desc_text{
+          color: #FFF;
+          font-family: Inter;
+          font-size: 8px;
+          font-style: normal;
+          font-weight: 300;
+          line-height: normal;
+          width: 100px;
+          height: 50.05px;
+          flex-shrink: 0;
+        }
+        .contenier:hover .overlay {
+          height: 70%;
+        }
+      }

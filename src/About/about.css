@@ -1,0 +1,106 @@
+.about_header{
+    background-image: url("../images/Background\ 1.png");
+    background-size: 1501px 1507px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-bottom: 150px;
+    padding-top: 150px;
+    width: 100%;
+}
+.p_a{
+    width: 88px;
+    height: 2px;
+    flex-shrink: 0;
+    background: #D88303;
+    margin-left: 10px;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 50px;
+    padding-right: 115px;;
+   
+}
+
+.image_about{
+   
+    padding-left: 50px;
+}
+.p_text{
+    color: #8F6232;
+font-family: Inter;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 160%; /* 28.8px */
+}
+.h1_text{
+    color: #8F6232;
+font-family: Inter;
+font-size: 30px;
+font-style: normal;
+font-weight: 600;
+line-height: 160%; /* 60.8px */
+text-transform: capitalize;
+}
+.p_about{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: #D88303;
+font-family: Inter;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: 160%; /* 32px */
+text-transform: capitalize;
+}
+
+@media(max-width:1245px){
+    .about_header {
+        background-image: url(http://localhost:3000/static/media/Background%201.7829c6d….png);
+        /* background-size: 1501px 1507px; */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 40px;
+        padding-left: 0%; 
+        padding-right: 0%;
+        padding-bottom: 0%; 
+        padding-top: 0%; 
+        width: 100%;
+}
+.h1_text {
+    color: #8F6232;
+    text-align: center;
+    font-family: Inter;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 100%;
+    text-transform: capitalize;
+}
+.p_text {
+    color: #8F6232;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
+    width: 100%;
+}
+.image_about img{
+    width: 28%;
+    margin-left: 10px !important;
+}
+.video video{
+    width: 500px;
+}
+}

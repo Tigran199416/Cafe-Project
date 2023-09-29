@@ -1,0 +1,134 @@
+.carusel{
+    width:60%;
+}
+/* .home_pic{
+    object-fit: cover; 
+} */
+.image{
+    background-image: url("../images/Background\ 1.png");
+    height: 579px;
+    width: 682px;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+.home_header{
+    
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+    margin-top: 90px;
+    width: 100%;
+}
+
+.slick-arrow.slick-next{
+  display: none  !important;
+}
+.slick-arrow.slick-prev{
+    display: none  !important;
+  }
+.text_h1{
+    color: #8F6232;
+font-family: Inter;
+font-size: 50px;
+font-style: normal;
+font-weight: 600;
+line-height: 160%; /* 80px */
+text-transform: uppercase;
+}
+
+.text_p{
+    color: #8F6232;
+font-family: Inter;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 160%; /* 28.8px */
+}
+.btn{
+    display: flex;
+    text-decoration: none;
+    width: 195px;
+    color: white;
+    padding: 15px 30px;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+    gap: 10px;
+    border-radius: 25px;
+    background: #b38c62;
+    border: none;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: #D88303;
+    -webkit-box-shadow: 12px -2px 29px -1px rgba(34, 60, 80, 0.3);
+-moz-box-shadow: 12px -2px 29px -1px rgba(34, 60, 80, 0.3);
+box-shadow: 12px -2px 29px -1px rgba(34, 60, 80, 0.3);
+}
+
+@media(max-width:750px){
+    .home_header{
+    
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        align-items: center;
+        margin-top: 110px;
+        width: 100%;
+    }
+    .image {
+        background-image: url(http://localhost:3000/static/media/Background%201.7829c6d….png);
+         height: 300px;
+        width: 682px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+}
+.carusel img{
+    height: 300px;
+}
+
+.carusel{
+    width: 100%;
+}
+.text_h1 {
+    color: #8F6232;
+    font-family: Inter;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 50%;
+    text-transform: uppercase;
+}
+.text_p {
+    color: #8F6232;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%;
+}
+.btn {
+    display: flex;
+    text-decoration: none;
+    width: 110px;
+    color: white;
+    padding: 10px 16px;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+    gap: 10px;
+    border-radius: 25px;
+    background: #b38c62;
+    border: none;
+    cursor: pointer;
+}
+}

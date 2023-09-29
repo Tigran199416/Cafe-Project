@@ -1,0 +1,22 @@
+
+.App {
+  text-align: center;
+}
+
+
+
+.buy-container {
+  overflow-y: hidden;
+  width: 100vw;
+}
+
+.MuiContainer-root  {
+   margin-left: 0 !important;
+    margin-right: 0 !important;
+    padding-left: 20px !important; 
+    padding-right: 20px !important;
+} 
+
+.MuiContainer-maxWidthLg {
+    max-width: 1288px  !important;
+}
